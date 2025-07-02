@@ -6,4 +6,4 @@
 # >= 80 => 'Very Good'
 # >= 70 => 'Good'
 # >= 60 => 'Sufficient'
-# < 60  => 'Fail
+# < 60  => 'Fail'

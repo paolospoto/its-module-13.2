@@ -1,4 +1,4 @@
-# Exercise 4 — Ask for a password, allow max 3 attempts
+# Ask for a password, allow max 3 attempts
 # RULES:
 # - Use a while loop
 # - Allow the user to enter a password up to 3 times
