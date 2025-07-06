@@ -1,18 +1,11 @@
-# Average of each row
+# Remove duplicates
 # RULES:
-# Print a list of averages for each row in the matrix
+# - Print a list of unique symptoms from a list that may contain duplicates
+# TIPS:
+# - You can use "not in" to check if an item is in a list
 # Example:
-# Input: [
-#            [90, 30, 60],
-#            [10, 15, 20],
-#            [10, 30, 20]
-# ]
-# Output: [30, 15, 20]
+# names = ["Alice", "Bob", "Alice", "Charlie"]
+# "Paolo" not in names => True
 
-measurements = [
-    [120, 125, 130],
-    [110, 115, 120],
-    [100, 105, 110]
-]
-
-row_averages = []
+symptoms = ["fever", "cough", "cough", "fever", "pain"]
+unique = []

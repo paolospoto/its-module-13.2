@@ -1,20 +1,18 @@
-# Longest common prefix
+# Average of each row
 # RULES:
-# - Find and print the longest common prefix among a list of words
-# Example: ["doctor", "dog", "dose"] → "do"
+# Print a list of averages for each row in the matrix
+# Example:
+# Input: [
+#            [90, 30, 60],
+#            [10, 15, 20],
+#            [10, 30, 20]
+# ]
+# Output: [30, 15, 20]
 
-words = ["doctor", "dog", "dose"]
-prefix = ""
+measurements = [
+    [120, 125, 130],
+    [110, 115, 120],
+    [100, 105, 110]
+]
 
-for i in range(len(words[0])):
-    current_char = words[0][i]
-    for word in words[1:]:
-        if i >= len(word) or word[i] != current_char:
-            print("Longest common prefix:", prefix)
-            break
-    else:
-        prefix += current_char
-        continue
-    break
-else:
-    print("Longest common prefix:", prefix)
+row_averages = []

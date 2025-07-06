@@ -1,15 +1,14 @@
-words = ["doctor", "dog", "dose"]
-prefix = ""
+# For numbers 1 to 15:
+# - Print "Divisible by 3" if divisible by 3
+# - Print "Divisible by 5" if divisible by 5
+# - Print "Divisible by both" if divisible by both
 
-if words:
-    for i in range(len(words[0])):
-        ch = words[0][i]
-        for word in words:
-            if word[i] != ch:
-                break
-        else:
-            prefix += ch
-else:
-    print("No words")
-
-print("Longest common prefix:", prefix)
+for i in range(1, 16):
+    if i % 3 == 0:
+        print("Divisible by 3")
+    elif i % 5 == 0:
+        print("Divisible by 5")
+    elif i % 3 == 0 and i % 5 == 0:
+        print("Divisible by both")
+    else:
+        print(i)
