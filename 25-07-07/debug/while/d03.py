@@ -1,4 +1,4 @@
-answer = ""
+answer = input("Do you want to stop? ")
 
-while answer != "yes" or answer != "no":
-    answer = input("Yes or no? ").strip().lower()
+while answer != "yes" or answer != "yes, please":
+    answer = input("Do you want to stop? ")
