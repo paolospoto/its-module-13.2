@@ -6,3 +6,17 @@
 # - If the password is incorrect, print "Incorrect" and allow another attempt
 attempts = 0
 correct_pwd = "forzapalermo27"
+
+pwd = input("Insert password: ")
+
+while attempts < 2:
+    if pwd == correct_pwd:
+        print("Correct!")
+        break
+
+    print("Wrong")
+    attempts += 1
+    pwd = input("Insert password: ")
+    if attempts == 2:
+        print("Wrong, no more tries")
+        break

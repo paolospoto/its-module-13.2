@@ -4,3 +4,6 @@
 # - Print each patient's name
 
 patients = ["Alice", "Bob", "Charlie"]
+
+for p in patients:
+    print(p)
