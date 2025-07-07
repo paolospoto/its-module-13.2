@@ -1,2 +1,4 @@
 values = [5, 3, 8, 1]
-print("Sorted:", values.sort())
+values.sort()
+# print("Sorted:", values.sort()) => buggy
+print("Sorted:", values)
