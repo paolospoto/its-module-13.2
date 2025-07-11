@@ -21,3 +21,13 @@ record = {
     'patient_id': None,
     'fever_patients': []
 }
+
+for id, p in patients.items():
+    if p["temp"] >= 38:
+        record["fever_patients"].append(p["name"])
+
+    if p["temp"] > record["highest_temp"]:
+        record["highest_temp"] = p["temp"]
+        record["patient_id"] = id
+
+print(record)
