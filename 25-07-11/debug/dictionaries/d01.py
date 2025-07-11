@@ -1,2 +1,2 @@
 patient = {"name": "Anna", "age": 28}
-print(patient["temp"])
+print(patient.get("temp", 3))

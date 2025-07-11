@@ -1,8 +1,8 @@
-def unknown_fn(nums: list[int]) -> int:
-    m = 0
+def get_avg(nums: list[int]) -> int:
+    total_sum = 0
     for n in nums:
-        m += n
-    return m / len(nums)
+        total_sum += n
+    return total_sum / len(nums)
 
 
-print(unknown_fn([5, 7, 9]))
+print(get_avg([5, 7, 9]))

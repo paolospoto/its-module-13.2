@@ -4,3 +4,9 @@
 # 2) If weight is 0, set patient["weight"] = 70
 
 patient = {"name": "Mario", "age": 28}
+
+w = patient.get("weight")
+
+if w == None:
+    patient.update({'weight': 70})
+print("P: ", patient)

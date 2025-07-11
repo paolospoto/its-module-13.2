@@ -3,4 +3,5 @@ def print_list(items):
         print(item)
 
 
-print_list("cough", "fever", "pain")
+# print_list("cough", "fever", "pain") => buggy
+print_list(["cough", "fever", "pain"])

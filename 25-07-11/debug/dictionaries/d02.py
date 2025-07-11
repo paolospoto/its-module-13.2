@@ -1,4 +1,4 @@
 data = {"name": "Luca"}
-backup = data
+data2 = data.copy()
 data["name"] = "Elena"
-print(backup["name"])
+print(data2["name"])

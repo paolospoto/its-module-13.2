@@ -2,4 +2,5 @@ def square(x):
     return x * x
 
 
-print(square())
+# print(square()) => buggy
+print(square(2))
