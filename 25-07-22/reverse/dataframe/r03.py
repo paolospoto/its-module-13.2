@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def unknown_fn():
     df = pd.DataFrame({
         "Name": ["Alice", "Bob", "Carla"],
