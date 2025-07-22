@@ -5,4 +5,5 @@ df = pd.DataFrame({
     "B": [3, 4]
 })
 
-print(df.iloc["0"])
+# print(df.iloc["0"]) => buggy
+print(df.iloc[0])

@@ -7,3 +7,6 @@ def unknown_fn():
         "B": [1, 2, 3]
     })
     return df["A"] + df["B"]
+
+
+print(unknown_fn())

@@ -7,3 +7,6 @@ def unknown_fn():
         "Age": [25, 30, 28]
     })
     return df.iloc[1]
+
+
+print(unknown_fn())

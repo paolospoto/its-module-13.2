@@ -10,3 +10,5 @@ df = pd.DataFrame({
     "Name": ["Anna", "Luca"],
     "Age": [22, 30]
 })
+
+print(df["Age"])

@@ -8,4 +8,4 @@ import pandas as pd
 
 df = pd.DataFrame({
     "A": [10, 20, 30]
-})
+}, index=["a", "b", "c"])

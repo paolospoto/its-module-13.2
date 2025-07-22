@@ -5,4 +5,5 @@ df = pd.DataFrame({
     "Temp": [22, 18]
 })
 
-print(df.Temp())
+# print(df.Temp()) => buggy
+print(df.Temp)

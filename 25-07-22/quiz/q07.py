@@ -9,3 +9,7 @@ import pandas as pd
 df = pd.DataFrame({
     "Score": [50, 80, 70]
 })
+
+df_sorted = df.sort_values("Score", ascending=False)
+
+print(df_sorted)

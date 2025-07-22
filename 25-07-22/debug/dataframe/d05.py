@@ -5,5 +5,5 @@ df = pd.DataFrame({
     "B": [1, 2, 3]
 })
 
-df["C"] = df["A"] + df["b"]
+df["C"] = df["A"] + df["B"]
 print(df)

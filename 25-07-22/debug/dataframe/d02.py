@@ -5,4 +5,5 @@ df = pd.DataFrame({
     "Age": [22, 30]
 })
 
-print(df["Età"])
+# print(df["Età"]) => buggy
+print(df["Age"])

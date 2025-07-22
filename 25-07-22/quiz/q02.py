@@ -10,3 +10,4 @@ df = pd.DataFrame({
     "Name": ["Anna", "Luca"],
     "City": ["Rome", "Milan"]
 })
+print(df[["Name", "City"]])

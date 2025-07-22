@@ -5,4 +5,4 @@ df = pd.DataFrame({
     "Age": [22, 30, 27]
 })
 
-print(df[df["Age"] > 25]["Nome"])
+print(df[df["Age"] > 25]["Name"])

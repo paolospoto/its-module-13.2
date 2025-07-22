@@ -1,8 +1,9 @@
 # Q11: What is wrong with the following code?
 # (Tip: look carefully... 👀)
+# import pandas as pd
 
 
-df = pd.DataFrame({  # type: ignore
+df = pd.DataFrame({
     "Nome": ["Paolo", "Laura", "Michele"],
     "Età": [40, 35, 29],
     "Attivo": [True, False, True],
