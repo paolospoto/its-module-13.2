@@ -4,7 +4,7 @@ import pandas as pd
 st.session_state.setdefault("nome", "")
 st.session_state.setdefault("età", 0)
 st.session_state.setdefault("genere", "Maschio")
-
+st.subheader("Dati Anagrafici")
 nome = st.text_input("Nome", value=st.session_state.nome)
 età = st.number_input("Età", min_value=0, value=st.session_state.età)
 genere = st.selectbox("Genere", ["Maschio", "Femmina"], index=0)
@@ -15,6 +15,7 @@ st.session_state.genere = genere
 
 st.divider()
 
+st.subheader("Dati Clinici")
 st.session_state.setdefault("pressione", 120)
 st.session_state.setdefault("glicemia", 90)
 

@@ -1,10 +1,16 @@
 import streamlit as st
 
-op = st.selectbox("Operazione", ["Somma", "Moltiplica"])
-x = st.slider("x", 0, 10)
-y = st.slider("y", 0, 10)
+op = st.selectbox(
+    "Operazione", ["Somma", "Sottrazione", "Moltiplica", "Divisione"])
+x = st.number_input("x")
+y = st.number_input("y")
 
-if op == "Somma":
-    st.write(x + y)
-else:
-    st.write(x * y)
+if st.button("Calcola"):
+    if op == "Somma":
+        st.write(str(x + y))
+    elif op == "Sottrazione":
+        st.write(str(x - y))
+    elif op == "Divisione":
+        st.write(str(x / y))
+    else:
+        st.write(str(x * y))
